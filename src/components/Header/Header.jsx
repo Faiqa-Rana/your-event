@@ -27,7 +27,7 @@ const navData = [
 
 const Header = () => {
   return (
-    <header className="py-4">
+    <header className="py-6">
       <Container>
         <div className="flex items-center justify-between">
           <Link
