@@ -17,6 +17,9 @@ export default {
           900: '#943f5f',
         },
       },
+      maxWidth: {
+        container: '1260px',
+      },
     },
   },
   plugins: [],
