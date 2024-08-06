@@ -1,7 +1,12 @@
+import { FaRegUser } from 'react-icons/fa';
+import { Button } from './components';
+
 const App = () => {
   return (
-    <div>
-      <h1 className="font-bold text-black">This is Event</h1>
+    <div className="p-6">
+      <Button href="https://www.google.com" icon={<FaRegUser size={18} />}>
+        Sign up
+      </Button>
     </div>
   );
 };
