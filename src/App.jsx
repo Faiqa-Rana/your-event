@@ -1,4 +1,4 @@
-import { Header } from './components';
+import { Container, EventCard, Header } from './components';
 import { Hero } from './templates';
 
 const App = () => {
@@ -6,6 +6,11 @@ const App = () => {
     <div>
       <Header />
       <Hero />
+      <div className="py-20">
+        <Container>
+          <EventCard />
+        </Container>
+      </div>
     </div>
   );
 };
