@@ -1,6 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@keyframes pulse-circle {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+}
 
+.animate-pulse-circle {
+  animation: pulse-circle 3s infinite;
+}
+
+@keyframes float-circle {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-float-circle {
+  animation: float-circle 4s ease-in-out infinite;
+}
 
 /* primary (pink) #f6699e */
